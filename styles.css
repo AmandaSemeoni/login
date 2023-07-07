@@ -1,0 +1,96 @@
+
+body {
+background-color: #000000;
+font-family: 'Concert One', sans-serif;
+font-size: 18px;
+line-height: 1.5;
+color: #FFFFFF;
+}
+
+.btn-custom {
+background-color: #000000;
+color: #1081B1;
+border: 1px solid #1081B1;
+border-radius: 30px;
+font-family: 'Concert One', sans-serif;
+font-size: 24px;
+padding: 10px 20px;
+}
+
+.btn-link {
+color: #FFFFFF;
+font-family: 'Concert One', sans-serif;
+font-size: 18px;
+}
+
+.text-center {
+text-align: center;
+}
+
+.header-image {
+margin-bottom: 40px;
+}
+
+.text-white {
+color: #FFFFFF;
+font-family: 'Concert One', sans-serif;
+font-size: 32px;
+font-weight: bold;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.form-control-custom {
+background-color: #000000;
+color: #FFFFFF;
+border: 1px solid #1081B1;
+border-radius: 30px;
+font-family: 'Concert One', sans-serif;
+font-size: 24px;
+padding: 20px 30px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+::placeholder {
+color: #1081B1;
+opacity: 1;
+}
+
+:-ms-input-placeholder {
+color: #1081B1;
+}
+
+::-ms-input-placeholder {
+color: #1081B1;
+}
+
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 992px) {
+.container {
+    max-width: 960px;
+}
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1140px;
+}
+}
